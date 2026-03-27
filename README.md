@@ -1,17 +1,66 @@
-# app_tempo
+# 🌤️ App de Clima em Flutter (Versão 1)
 
-A new Flutter project.
+Este é um aplicativo de clima desenvolvido em Flutter que utiliza a localização do usuário para exibir informações meteorológicas em tempo real.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+* 📍 Detecta a localização atual do usuário
+* 🌡️ Mostra a temperatura atual
+* ☁️ Exibe a condição do clima (ensolarado, nublado, chuva, etc.)
+* 💨 Mostra a velocidade do vento
+* 🔄 Botão para atualizar os dados
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias utilizadas
+
+* Flutter
+* Dart
+* API Open-Meteo
+* Geolocator (localização)
+* HTTP (requisições)
+
+---
+
+## 📱 Preview
+
+*(adicione aqui um print do app depois)*
+
+---
+
+## ▶️ Como rodar o projeto
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## 📂 Estrutura básica
+
+```
+lib/
+ └── main.dart
+```
+
+---
+
+## 📌 Versão
+
+**v1.0 - App funcional com clima em tempo real**
+
+---
+
+## 🔥 Próximas melhorias (Versão 2)
+
+* Mostrar nome da cidade
+* Interface mais moderna
+* Ícones animados
+* Previsão para próximos dias
+
+---
+
+
