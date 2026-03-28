@@ -95,7 +95,4 @@ flutter run
 
 ---
 
-# 👨‍💻 Autor
 
-Paulo Henrique
-Projeto desenvolvido para estudo de Flutter.
