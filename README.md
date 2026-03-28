@@ -1,66 +1,101 @@
-# 🌤️ App de Clima em Flutter (Versão 1)
+# 🌤️ App de Clima em Flutter
 
-Este é um aplicativo de clima desenvolvido em Flutter que utiliza a localização do usuário para exibir informações meteorológicas em tempo real.
+Aplicativo desenvolvido em **Flutter** que exibe informações meteorológicas em tempo real utilizando a localização do usuário.
 
----
-
-## 🚀 Funcionalidades
-
-* 📍 Detecta a localização atual do usuário
-* 🌡️ Mostra a temperatura atual
-* ☁️ Exibe a condição do clima (ensolarado, nublado, chuva, etc.)
-* 💨 Mostra a velocidade do vento
-* 🔄 Botão para atualizar os dados
+O app consome dados da API **Open-Meteo** e apresenta clima atual e previsão para os próximos dias com uma interface moderna.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+# 🚀 Funcionalidades
+
+✔ Localização automática do usuário
+✔ Temperatura atual
+✔ Condição do clima
+✔ Velocidade do vento
+✔ Previsão dos próximos 5 dias
+✔ Temperatura máxima e mínima por dia
+✔ Interface moderna com gradiente dinâmico
+
+---
+
+# 🛠️ Tecnologias utilizadas
 
 * Flutter
 * Dart
-* API Open-Meteo
-* Geolocator (localização)
-* HTTP (requisições)
+* Open-Meteo API
+* Geolocator
+* HTTP
 
 ---
 
-## 📱 Preview
+# 📱 Interface
 
-*(adicione aqui um print do app depois)*
+O aplicativo apresenta:
+
+* Clima atual com ícone e temperatura
+* Cards de previsão para os próximos dias
+* Fundo que muda conforme o clima
+* Botão para atualização manual
 
 ---
 
-## ▶️ Como rodar o projeto
+# ⚙️ Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Guilhen35/app-tempo-flutter.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd app-tempo-flutter
+```
+
+Instale as dependências:
 
 ```bash
 flutter pub get
+```
+
+Execute o aplicativo:
+
+```bash
 flutter run
 ```
 
 ---
 
-## 📂 Estrutura básica
+# 📌 Versões do projeto
 
-```
-lib/
- └── main.dart
-```
+### v1
 
----
+* Clima atual
+* Interface básica
 
-## 📌 Versão
+### v2
 
-**v1.0 - App funcional com clima em tempo real**
+* Interface melhorada
 
----
+### v3 (atual)
 
-## 🔥 Próximas melhorias (Versão 2)
-
-* Mostrar nome da cidade
-* Interface mais moderna
-* Ícones animados
-* Previsão para próximos dias
+* Previsão dos próximos 5 dias
+* Layout moderno
+* Fundo dinâmico
 
 ---
 
+# 🔮 Próximas melhorias
 
+* Animações de clima
+* Busca manual por cidade
+* Cidades favoritas
+* Mais informações meteorológicas
+
+---
+
+# 👨‍💻 Autor
+
+Paulo Henrique
+Projeto desenvolvido para estudo de Flutter.
