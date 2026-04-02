@@ -1,45 +1,57 @@
 # 🌤️ App de Clima em Flutter
 
-Aplicativo desenvolvido em **Flutter** que exibe informações meteorológicas em tempo real utilizando a localização do usuário.
+Aplicativo mobile desenvolvido em **Flutter** que exibe informações meteorológicas em tempo real com base na **localização atual do usuário**.
 
-O app consome dados da API **Open-Meteo** e apresenta clima atual e previsão para os próximos dias com uma interface moderna.
+Os dados são obtidos através da API **Open-Meteo**, garantindo uma experiência leve, rápida e sem necessidade de cadastro ou chave de API.
 
 ---
 
-# 🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-✔ Localização automática do usuário
-✔ Temperatura atual
-✔ Condição do clima
+✔ Localização automática em tempo real
+✔ Exibição da temperatura atual
+✔ Condição climática (texto + ícone)
 ✔ Velocidade do vento
-✔ Previsão dos próximos 5 dias
+✔ Previsão para os próximos 5 dias
 ✔ Temperatura máxima e mínima por dia
 ✔ Interface moderna com gradiente dinâmico
+✔ Atualização manual com botão
 
 ---
 
-# 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
-* Flutter
-* Dart
-* Open-Meteo API
-* Geolocator
-* HTTP
-
----
-
-# 📱 Interface
-
-O aplicativo apresenta:
-
-* Clima atual com ícone e temperatura
-* Cards de previsão para os próximos dias
-* Fundo que muda conforme o clima
-* Botão para atualização manual
+* **Flutter**
+* **Dart**
+* **Open-Meteo API**
+* **Geolocator**
+* **HTTP**
 
 ---
 
-# ⚙️ Como rodar o projeto
+## 📱 Interface
+
+O aplicativo apresenta uma interface moderna e intuitiva:
+
+* Tela principal com clima atual em destaque
+* Ícones dinâmicos de acordo com o clima
+* Cards horizontais com previsão dos próximos dias
+* Gradiente de fundo adaptável
+* Layout responsivo para diferentes tamanhos de tela
+
+---
+
+## 🔒 Privacidade
+
+Este aplicativo **não armazena a localização do usuário**.
+
+* A localização é utilizada apenas em tempo real
+* Nenhum dado é salvo ou persistido
+* Cada usuário vê apenas o clima da sua própria região
+
+---
+
+## ⚙️ Como rodar o projeto
 
 Clone o repositório:
 
@@ -47,7 +59,7 @@ Clone o repositório:
 git clone https://github.com/Guilhen35/app-tempo-flutter.git
 ```
 
-Entre na pasta do projeto:
+Acesse a pasta:
 
 ```bash
 cd app-tempo-flutter
@@ -59,7 +71,7 @@ Instale as dependências:
 flutter pub get
 ```
 
-Execute o aplicativo:
+Execute o app:
 
 ```bash
 flutter run
@@ -67,32 +79,54 @@ flutter run
 
 ---
 
-# 📌 Versões do projeto
+## 📌 Estrutura do projeto
+
+```
+lib/
+ └── main.dart   # Lógica principal + UI
+```
+
+---
+
+## 📈 Evolução do projeto
 
 ### v1
 
 * Clima atual
-* Interface básica
+* Estrutura inicial
 
 ### v2
 
-* Interface melhorada
+* Melhorias de layout
+* Organização de código
 
 ### v3 (atual)
 
-* Previsão dos próximos 5 dias
-* Layout moderno
-* Fundo dinâmico
+* Previsão para 5 dias
+* Interface moderna
+* Gradiente dinâmico
+* Ajustes de responsividade
 
 ---
 
-# 🔮 Próximas melhorias
+## 🔮 Próximas melhorias
 
-* Animações de clima
-* Busca manual por cidade
-* Cidades favoritas
-* Mais informações meteorológicas
+* 🌤️ Animações de clima
+* 🔍 Busca manual por cidade
+* ⭐ Sistema de favoritos
+* 📊 Mais dados meteorológicos (umidade, pressão, etc)
+* 🌙 Modo escuro automático
 
 ---
 
+## 👨‍💻 Autor
 
+Desenvolvido por **Paulo Henrique**
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, sugestões ou abrir issues.
+
+---
